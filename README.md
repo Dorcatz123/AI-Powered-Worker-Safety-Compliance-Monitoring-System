@@ -1,7 +1,7 @@
 # AI-Powered Worker Safety Compliance Monitoring System
 
 ## Overview
-The **Schlumberger AI-Powered Worker Safety Compliance Monitoring System** is a computer vision-based solution designed to enhance workplace safety. It utilizes **YOLOv8** for real-time detection of Personal Protective Equipment (PPE) compliance, ensuring that workers adhere to safety regulations by identifying helmets, gloves, vests, boots, and other safety gear.
+The **AI-Powered Worker Safety Compliance Monitoring System** is a computer vision-based solution designed to enhance workplace safety. It utilizes **YOLOv8** for real-time detection of Personal Protective Equipment (PPE) compliance, ensuring that workers adhere to safety regulations by identifying helmets, gloves, vests, boots, and other safety gear.
 
 ## Features
 - **Real-time PPE detection** using YOLOv8
