@@ -68,7 +68,7 @@ python detect.py --weights weights/yolov8x.pt --source 0
 - **Integration with IoT devices** for real-time worker alerts
 - **Edge AI deployment** for low-latency monitoring
 - **Better domain adaptation** for different industries
-- **Fine-tuned model on more diverse datasets and classes**
+- **Fine-tuned model on more diverse datasets and classes with better performance**
 
 ## Results:
 
