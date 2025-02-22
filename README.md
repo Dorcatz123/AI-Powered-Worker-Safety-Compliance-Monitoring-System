@@ -79,7 +79,7 @@ Access the API at `http://localhost:8000/docs`
 - **Integration with IoT devices** for real-time worker alerts
 - **Edge AI deployment** for low-latency monitoring
 - **Better domain adaptation** for different industries
-- **Fine-tuned model on more diverse datasets**
+- **Fine-tuned model on more diverse datasets and classes**
 
 ## Contributors
 - **Akshay** - AI/ML Engineer
@@ -89,6 +89,6 @@ Access the API at `http://localhost:8000/docs`
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-Special thanks to **Schlumberger** for providing the domain expertise and real-world data for training the model.
+Special thanks to **Schlumberger** for providing the domain expertise.
 
 
