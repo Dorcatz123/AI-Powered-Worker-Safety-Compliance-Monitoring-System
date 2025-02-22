@@ -67,13 +67,6 @@ python detect.py --weights weights/yolov8x.pt --source 0
 - **mAP (Mean Average Precision):** 94%
 - **FPS (Frames Per Second):** ~30 FPS on an NVIDIA RTX 3090
 
-## Deployment (Optional)
-To deploy as an API using FastAPI and Docker:
-```bash
-docker build -t ppe-detection .
-docker run -p 8000:8000 ppe-detection
-```
-Access the API at `http://localhost:8000/docs`
 
 ## Future Enhancements
 - **Integration with IoT devices** for real-time worker alerts
