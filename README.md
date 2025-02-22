@@ -21,7 +21,7 @@ The **AI-Powered Worker Safety Compliance Monitoring System** is a computer visi
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/AI-Powered-Worker-Safety-Compliance-Monitoring-System.git
+   git clone https://github.com/Dorcatz123/AI-Powered-Worker-Safety-Compliance-Monitoring-System.git
    cd AI-Powered-Worker-Safety-Compliance-Monitoring-System
 
    ```
@@ -61,7 +61,7 @@ python detect.py --weights weights/yolov8x.pt --source 0
 ## Dataset
 - The proprietery dataset was labeled using **Roboflow**.
 - Classes include: `helmet`, `boots`, `coverall`, `no boots`, `no coverall`, 'no helmet'.
-- The Classes an be extended to other classes.
+- Can be extended to other classes.
 
 
 ## Future Enhancements
