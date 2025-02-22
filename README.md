@@ -7,15 +7,13 @@ The **AI-Powered Worker Safety Compliance Monitoring System** is a computer visi
 - **Real-time PPE detection** using YOLOv8
 - **Worker safety compliance monitoring**
 - **Detection of non-compliant behavior** (e.g., missing helmets, improper boots, lack of gloves)
-- **High accuracy and efficiency** with deep learning-based object detection
-- **Custom dataset for PPE detection**, specifically annotated for Schlumberger’s requirements
+- **Proprietery dataset for PPE detection**, specifically annotated for Schlumberger’s requirements
 - **Scalability** to monitor multiple workers across different locations
 
 ## Tech Stack
 - **Deep Learning Model:** YOLOv8
-- **Frameworks/Libraries:** PyTorch, OpenCV, Ultralytics YOLO
-- **Dataset Annotation:** Roboflow, LabelImg
-- **Deployment:** Docker, FastAPI (optional for API service)
+- **Frameworks/Libraries:** Ultralytics YOLO
+- **Dataset Annotation:** Roboflow
 - **Hardware:** NVIDIA GPU (for model acceleration)
 
 ## Installation
