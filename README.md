@@ -58,7 +58,7 @@ python detect.py --weights weights/yolov8x.pt --source 0
 
 ## Dataset
 - The proprietery dataset was labeled using **Roboflow**.
-- Classes include: `helmet`, `boots`, `coverall`, `no boots`, `no coverall`, 'no boots', 'no helmet'.
+- Classes include: `helmet`, `boots`, `coverall`, `no boots`, `no coverall`, 'no helmet'.
 - The Classes an be extended to other classes.
 
 ## Results & Performance
