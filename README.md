@@ -89,6 +89,6 @@ Access the API at `http://localhost:8000/docs`
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-Special thanks to **Schlumberger** for providing the domain expertise.
+Special thanks to **Curvelogics pvt ltd and Schlumberger** for providing the domain expertise.
 
 
