@@ -8,7 +8,7 @@ The **AI-Powered Worker Safety Compliance Monitoring System** is a computer visi
 ## Features
 - **Real-time PPE detection** using YOLOv8
 - **Worker safety compliance monitoring**
-- **Detection of non-compliant behavior** (e.g., missing helmets, improper boots, lack of gloves)
+- **Detection of non-compliant behavior** (e.g., missing helmets, improper boots, no coverall)
 - **Proprietery dataset for PPE detection**, specifically annotated for industry requirement.
 - **Scalability** to monitor multiple workers across different locations
 
