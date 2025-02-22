@@ -3,7 +3,7 @@
 ## Overview
 The **AI-Powered Worker Safety Compliance Monitoring System** is a computer vision-based solution designed to enhance workplace safety. It utilizes **YOLOv8** for real-time detection of Personal Protective Equipment (PPE) compliance, ensuring that workers adhere to safety regulations by identifying helmets, gloves, vests, boots, and other safety gear.
 
-![detect](https://raw.githubusercontent.com/Dorcatz123/Cancer_Researcher_AI/main/openart-image_lEFwQqVA_1727547070986_raw.jpg)
+![detect](https://github.com/Dorcatz123/AI-Powered-Worker-Safety-Compliance-Monitoring-System/blob/main/worker_github.jpg)
 
 ## Features
 - **Real-time PPE detection** using YOLOv8
