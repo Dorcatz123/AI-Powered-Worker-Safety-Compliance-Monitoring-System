@@ -82,7 +82,7 @@ Access the API at `http://localhost:8000/docs`
 
 ## Contributors
 - **Akshay** - AI/ML Engineer
-- [Other Contributors]
+- **Anoop Sankar** -Data collection and project stakeholder
 
 ## License
 This project is licensed under the MIT License.
