@@ -1,0 +1,42 @@
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
+# Email Configuration
+SMTP_SERVER = "smtp.gmail.com"  # Use your SMTP server
+SMTP_PORT = 587
+SENDER_EMAIL = "your_email@gmail.com"
+SENDER_PASSWORD = "your_app_password"  # Use App Password for Gmail
+RECEIVER_EMAIL = "receiver_email@gmail.com"
+
+def send_alert(violation):
+    subject = "PPE Violation Alert 🚨"
+    body = f"Warning! {violation} detected. Please ensure compliance with PPE requirements."
+
+    # Create email message
+    msg = MIMEMultipart()
+    msg["From"] = SENDER_EMAIL
+    msg["To"] = RECEIVER_EMAIL
+    msg["Subject"] = subject
+    msg.attach(MIMEText(body, "plain"))
+
+    try:
+        # Connect to SMTP server and send email
+        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+        server.starttls()
+        server.login(SENDER_EMAIL, SENDER_PASSWORD)
+        server.sendmail(SENDER_EMAIL, RECEIVER_EMAIL, msg.as_string())
+        server.quit()
+        print("🚀 Alert sent successfully!")
+    except Exception as e:
+        print(f"⚠️ Error sending email: {e}")
+
+# Example: Check detected objects from YOLOv8
+detected_objects = ["person", "helmet"]  # Example detection result
+
+# Define PPE requirements
+required_ppe = {"coverall", "boots", "helmet"}
+missing_ppe = required_ppe - set(detected_objects)
+
+if missing_ppe:
+    send_alert(", ".join(missing_ppe))
