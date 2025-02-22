@@ -61,12 +61,6 @@ python detect.py --weights weights/yolov8x.pt --source 0
 - Classes include: `helmet`, `boots`, `coverall`, `no boots`, `no coverall`, 'no helmet'.
 - The Classes an be extended to other classes.
 
-## Results & Performance
-- **Precision:** ~95%
-- **Recall:** ~92%
-- **mAP (Mean Average Precision):** 94%
-- **FPS (Frames Per Second):** ~30 FPS on an NVIDIA RTX 3090
-
 
 ## Future Enhancements
 - **Integration with IoT devices** for real-time worker alerts
