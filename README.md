@@ -70,6 +70,11 @@ python detect.py --weights weights/yolov8x.pt --source 0
 - **Better domain adaptation** for different industries
 - **Fine-tuned model on more diverse datasets and classes**
 
+## Results:
+
+![result](https://github.com/Dorcatz123/AI-Powered-Worker-Safety-Compliance-Monitoring-System/blob/main/test_result.png)
+
+
 ## Contributors
 - **Akshay** - AI/ML Engineer
 - **Anoop Sankar** -Data collection and project stakeholder
